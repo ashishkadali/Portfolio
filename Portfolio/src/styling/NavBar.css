@@ -1,0 +1,26 @@
+.NavSection {
+  display: flex;
+  justify-content: center;
+}
+
+.NavContainer {
+  width: 50rem;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* flex-direction: column; */
+}
+
+.UnorderList {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}

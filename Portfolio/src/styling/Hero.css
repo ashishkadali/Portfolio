@@ -1,0 +1,5 @@
+.HeroSection {
+  height: 100vh;
+  background-color: purple;
+  /* scroll-snap-align: center; */
+}
