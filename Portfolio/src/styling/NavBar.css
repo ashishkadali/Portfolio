@@ -1,14 +1,16 @@
 .NavSection {
   display: flex;
   justify-content: center;
+  color: whitesmoke;
 }
 
 .NavContainer {
-  width: 50rem;
-  background-color: rebeccapurple;
+  width: 60rem;
+  /* background-color: rebeccapurple; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 0px;
 }
 
 .ListContainer {
@@ -21,6 +23,29 @@
 
 .UnorderList {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   list-style: none;
+}
+
+.NavButton {
+  width: 100px;
+  padding: 10px;
+  background-color: #da4ea2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .NavSection {
+    width: 100%;
+  }
+  .NavContainer {
+    width: 100%;
+    padding: 10px;
+  }
+  .UnorderList {
+    display: none;
+  }
 }

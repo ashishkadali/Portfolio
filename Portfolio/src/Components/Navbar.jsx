@@ -16,8 +16,7 @@ export default class Navbar extends Component {
               <li>Contact</li>
             </ul>
           </div>
-
-          <button>Hire Me</button>
+          <button className="NavButton">Hire Me</button>
         </div>
       </div>
     );

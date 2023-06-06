@@ -1,0 +1,31 @@
+.AboutContainer {
+  height: 100vh;
+  color: lightgray;
+  /* scroll-snap-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LeftRight {
+  height: 100vh;
+  /* scroll-snap-align: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60rem;
+}
+
+.AboutLeft {
+  flex: 2;
+  position: relative;
+}
+
+.AboutRight {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}

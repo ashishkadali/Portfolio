@@ -1,11 +1,15 @@
-import React from "react";
-import styled from "styled-components";
+import React, { Component } from "react";
+import "../styling/About.css";
 
-const Section = styled.div`
-  height: 100vh;
-  background-color: orange;
-`;
-
-export default function About() {
-  return <Section>About</Section>;
+export default class About extends Component {
+  render() {
+    return (
+      <div className="AboutContainer">
+        <div className="LeftRight">
+          <div>Left</div>
+          <div>right</div>
+        </div>
+      </div>
+    );
+  }
 }

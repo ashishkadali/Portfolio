@@ -1,5 +1,64 @@
 .HeroSection {
   height: 100vh;
-  background-color: purple;
+  color: lightgray;
   /* scroll-snap-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeroLeftRight {
+  height: 100vh;
+  /* scroll-snap-align: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60rem;
+}
+
+.HeroLeft {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.LeftHeading {
+  font-size: 1.5rem;
+}
+.LeftSubHeading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.LeftDescription {
+  font-size: 1rem;
+  color: lightgray;
+}
+
+.HeroRight {
+  flex: 3;
+  position: relative;
+}
+
+.RightImage {
+  width: 30rem;
+  height: 20rem;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: animate 2s infinite ease alternate;
+}
+
+@keyframes animate {
+  to {
+    transform: translateY(20px);
+  }
 }
